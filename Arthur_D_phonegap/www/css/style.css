@@ -1,0 +1,144 @@
+/* Empty. Add your own CSS if you like */
+
+body
+{
+	background-color: black;
+	font-family: 'Didact Gothic', sans-serif;
+}
+div.scroll
+{
+	background-image: url("../img/stars.png");
+	
+	
+}
+p
+{
+	color: white;
+	margin-left: 20px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 100;
+}
+.title
+{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 900 !important;
+	font-size: 26px !important;
+	color: #333 !important;
+}
+.detailTitle
+{
+	font-family: 'Didact Gothic', sans-serif;
+color: #333;	
+}
+
+#mainList .introText
+{
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+
+}
+#mainList
+{
+	font-family: 'Didact Gothic', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.item
+
+{
+font-family: 'Didact Gothic', sans-serif;
+	background-image: url("../img/stars.png");
+padding-top: 50px;
+padding-bottom: 20px;
+border-color: #ffd700;
+border: solid 0.2px #ffd700;
+}
+
+
+a
+{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 12px;
+}
+
+.planetSmall
+{
+	border-radius: 90px;
+	width: 150%;
+	height: 150%;
+	margin-top:20px;
+	
+}
+
+.largeImage
+{
+	width: 250px;
+	height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	
+}
+
+.boldText
+{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 900;
+	color: #cccccc;
+}
+
+h2{color: #ffd700;font-family: 'Didact Gothic', sans-serif;}
+.detailHeader{font-family: 'Didact Gothic', sans-serif; color: #ffd700; text-align: center;}
+.listBtn
+{
+	left: 150px;
+	top: 10px;
+	height: 2px;
+	border-color: transparent;
+background-color: #f8f8f8;
+color: #444;
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 5px 5px;
+min-width: 45px;
+min-height: 25px;
+border-width: 1px;
+border-style: solid;
+border-radius: 4px;
+vertical-align: top;
+text-align: center;
+text-overflow: ellipsis;
+font-size: 10px;
+font-family: 'Didact Gothic', sans-serif;
+line-height: 15px;
+cursor: pointer;
+}
+.detailBtn
+{
+	left: 120px;
+	top: 1px;
+	height: 2px;
+	border-color: transparent;
+background-color: #f8f8f8;
+color: #444;
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 5px 5px;
+min-width: 25px;
+min-height: 25px;
+border-width: 1px;
+border-style: solid;
+border-radius: 4px;
+vertical-align: top;
+text-align: center;
+text-overflow: ellipsis;
+font-size: 10px;
+font-family: 'Didact Gothic', sans-serif;
+line-height: 15px;
+cursor: pointer;
+}

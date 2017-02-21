@@ -1,0 +1,26 @@
+<ion-header-bar class="bar-energized">
+	<h1 class="title detailTitle">{{planetaryInfo.name}}</h1>
+</ion-header-bar>
+
+<ion-content class="detailBg">
+
+	<h2 class="detailHeader">Planetary Information</h2>
+	<br>
+	<p><span class="boldText">Terrain: </span> {{planetaryInfo.terrain}}</p>
+	<p><span class="boldText">Climate: </span> {{planetaryInfo.climate}} <span data-ng-if="!planetaryInfo.climate">Unknown</span></p>
+	<p><span class="boldText">Surface Water Percentage: </span> {{planetaryInfo.surface_water}}%</p>
+	<p><span class="boldText">Rotation Period: </span> {{planetaryInfo.rotation_period}}</p>
+	<p><span class="boldText">Orbital Period: </span> {{planetaryInfo.orbital_period}}</p>
+	<p><span class="boldText">Population: </span> {{planetaryInfo.population}}</p>
+	<br>
+
+	<h2 class="detailHeader">Gallery</h2>
+	<br>
+	<img class="largeImage" data-ng-src="img/planet/{{planetaryInfo.name}}.jpg" alt="Planet Shot">
+	<img class="largeImage" data-ng-src="img/surface/{{planetaryInfo.name}}.png" alt="Surface Shot">
+	<img class="largeImage" data-ng-src="img/easterEggs/{{planetaryInfo.name}}.jpg" alt="Star Wars Moment Shot">
+</ion-content>
+
+<ion-footer-bar class="bar-energized">
+	<button class="button detailBtn button-dark icon-left ion-home" data-ng-click="goHome()">Home</button>
+</ion-footer-bar>

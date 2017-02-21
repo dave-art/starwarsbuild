@@ -1,0 +1,21 @@
+<ion-header-bar class="bar-energized">
+	<h1 class="title">Planet Guide: Star Wars</h1>
+</ion-header-bar>
+
+<ion-content>
+
+<ion-refresher pulling-text="Pull to Refresh" refreshing-text="May The Force Be With You" on-refresh="loadChars()">
+</ion-refresher>
+
+	<ion-list id="mainList">
+	<p class="introText">Pull down to refresh list</p>
+		<ion-item ng-repeat="planet in planets" class="item item-thumbnail-left">
+			<img class="planetSmall" data-ng-src="img/planet/{{planet.name}}.jpg" alt="Small Planet Photo">
+			<h2>{{planet.name}}</h2>
+			<p>Climate: <span data-ng-bind-html="planet.climate"></span></p>
+			<a class="button listBtn icon-center button-dark ion-ios-information" href="#details/{{$index}}">More Details
+			</a>
+			
+	</ion-list>
+
+</ion-content>
